@@ -1,3 +1,5 @@
+remove eigen
+
 Creating a Cartesian product of all the activation functions, loss functions, and optimizers is one way to perform a comprehensive hyperparameter search. However, this can be computationally expensive and may not be necessary. Instead, you can follow some guidelines to narrow down your search space. Here are some considerations:
 
 ### General Guidelines
