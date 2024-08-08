@@ -12,7 +12,7 @@ This project utilizes a Convolutional Neural Network to analyze and predict the 
 ## Features
 
 - **Image Analysis**: Processes images to extract meaningful features for orientation prediction.
-![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/error.png)
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/cubes.png)
 - **Training and Evaluation**: Supports both modes to facilitate model development and testing.
 ![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/comparison.png)
 - **Visualization**: Includes tools to visualize training metrics and predictions.
