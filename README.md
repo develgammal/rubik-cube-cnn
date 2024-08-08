@@ -2,7 +2,8 @@
 
 A Convolutional Neural Network (CNN) leveraging Computer Vision to predict the axis of rotation of a Rubik's Cube.
 
-![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/background-img.jpg)
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/background-img.jpg)
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/mse.png)
 
 ## Overview
 
@@ -11,9 +12,14 @@ This project utilizes a Convolutional Neural Network to analyze and predict the 
 ## Features
 
 - **Image Analysis**: Processes images to extract meaningful features for orientation prediction.
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/error.png)
 - **Training and Evaluation**: Supports both modes to facilitate model development and testing.
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/comparison.png)
 - **Visualization**: Includes tools to visualize training metrics and predictions.
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/distribution.png)
 - **Logging**: Detailed logging of training progress and metrics for performance tracking.
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/validation.png)
+![Image Alt Text](https://github.com/develgammal/rubik-cube-cnn/blob/master/screenshots/weights.png)
 
 ## Getting Started
 
