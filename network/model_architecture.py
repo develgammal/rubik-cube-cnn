@@ -18,11 +18,11 @@ class CNNRegression(nn.Module):
         self.activation_func = getattr(nn.functional, activation_func_name)
 
 
-        # First Convolutional Layer and Pooling Layer
+        # First Layer Block
         self.conv1 = nn.Conv2d(in_channels=self.image_size[0], out_channels=4, kernel_size=3, stride=1, padding=1)
         self.pool1 = nn.MaxPool2d(kernel_size=2, stride=2)
 
-        # Second Convolutional Layer and Pooling Layer
+        # Second Layer Block
         self.conv2 = nn.Conv2d(in_channels=4, out_channels=16, kernel_size=3, stride=1, padding=1)
         self.pool2 = nn.MaxPool2d(kernel_size=2, stride=2)
 
@@ -46,7 +46,7 @@ class CNNRegression(nn.Module):
 
         # The batch size does not need to be explicitly referenced within the model definition. It is implicitly managed by the DataLoader and the tensor operations in the model. The DataLoader ensures that tensors are batched, and these batches are processed by the model. The shapes of the tensors during the forward pass reflect the batch size as the first dimension. In this specific example, the batch size of 64 comes from how the DataLoader was set up to batch the data.
 
-        # Forward pass through the first convolutional layer and pooling layer
+        # Forward pass through the first Layer Block
         x = self.conv1(x)
         # layers.append(["conv1", str(x.size())])
         x = self.activation_func(x)
@@ -54,7 +54,7 @@ class CNNRegression(nn.Module):
         x = self.pool1(x)
         # layers.append(["pool1", str(x.size())])
 
-        # Forward pass through the second convolutional layer and pooling layer
+        # Forward pass through the second Layer Block
         x = self.conv2(x)
         # layers.append(["conv2", str(x.size())])
         x = self.activation_func(x)
