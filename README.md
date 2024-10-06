@@ -87,7 +87,7 @@ To run the program, use the following command:
 python main.ipynb
 ```
 
-Alternatively, if you prefer the Jupyter notebook format, you will find two fully documented notebooks in the project root: `university_documented-notebook-en.ipynb` (in English) and `university_documented-notebook-de.ipynb` (in German). These notebooks were used for my university assignment. Please note, however, that I will not be maintaining them, so they may not include all future features.
+Alternatively, if you prefer the Jupyter notebook format, you will find two fully documented notebooks in the project root: `documented-notebook-en.ipynb` (in English) and `documented-notebook-de.ipynb` (in German). These notebooks were used for my university assignment. Please note, however, that I will not be maintaining them, so they may not include all future features.
 
 ## Project Structure
 
